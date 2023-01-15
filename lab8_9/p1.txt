@@ -1,0 +1,19 @@
+var first, second, third;
+
+first = read();
+second = read();
+third = read();
+
+var max_num = first;
+
+if(second > max_num)
+{
+	max_num = second;
+}
+
+if(third > max_num)
+{
+	max_num = third;
+}
+
+write(max_num);
